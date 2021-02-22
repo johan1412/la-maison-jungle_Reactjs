@@ -1,0 +1,35 @@
+.lmj-shopping-list {
+	width: 100%;
+    background-color: white;
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lmj-list-item {
+    margin: 30px;
+}
+
+.lmj-list-item img:hover {
+    transform: scale(1.2);
+    transition: transform 200ms ease-in-out;
+}
+
+.button-add-cart {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.button-add-cart:hover {
+    color: white;
+    background-color: black;
+}

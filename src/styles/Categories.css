@@ -1,0 +1,30 @@
+.lmj-categories-list {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.lmj-categories-list select {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 5%;
+    margin: 20px 50px 10px 20px;
+}
+
+.lmj-categories-list .lmj-text {
+    display: inline-block;
+}
+
+.lmj-reset-button {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333;
+    background-color: lightgray;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
